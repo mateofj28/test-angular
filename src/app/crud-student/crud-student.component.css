@@ -1,0 +1,25 @@
+.color-pages {
+    background-color: #E0E0E0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    height: 90%;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra moderada */
+}
+
+.padding-horizontal {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.separator-buttons {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,34 @@
+.color-pages {
+    background-color: #E0E0E0;
+    height: 100vh;
+    width: 100%;
+}
+
+.circulo {
+    width: 45px;
+    /* ancho del círculo */
+    height: 45px;
+    /* alto del círculo */
+    background-color: red;
+    /* color de fondo */
+    border-radius: 50%;
+    /* hace que sea circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    /* color del texto */
+    text-align: center;
+    cursor: pointer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas de igual tamaño */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px; /* Espacio alrededor del grid */
+}
+
+
+

@@ -1,0 +1,35 @@
+.card {
+    width: 17%;
+    height: 20%;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10%;
+    border: 1px solid transparent;
+    transition: box-shadow 0.3s ease, border 0.3s ease; 
+    padding: 20px; 
+}
+
+.card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+    border: 1px solid #007bff; /* Borde al pasar el mouse */
+
+}
+
+.profile {
+    width: 65px;
+    /* ancho del círculo */
+    height: 65px;
+    /* alto del círculo */
+    background-color: blue;
+    /* color de fondo */
+    border-radius: 50%;
+    /* hace que sea circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    /* color del texto */
+    text-align: center;
+    cursor: pointer;
+}

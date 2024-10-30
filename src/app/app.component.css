@@ -1,0 +1,31 @@
+html, body {
+    height: 100%; /* Asegúrate de que el html y body ocupen el 100% */
+    margin: 0; /* Elimina el margen por defecto */
+}
+
+.container {
+    background-color: #E0E0E0; /* Fondo rojo */
+    height: 100vh; /* Altura del contenedor igual a la altura de la ventana */
+    width: 100%; /* Ancho completo */
+    display: flex;
+    justify-content: center; 
+}
+
+.headline {
+    background-color: white; /* Fondo blanco para la tarjeta */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra moderada */
+    margin: 20px; /* Espaciado externo */
+    text-align: center; /* Centrar el texto */
+    width: 30%; 
+    height: 50%;
+}
+
+.links {
+    /* Estilos para los enlaces */
+}
+
+.main {
+    /* Estilos para la sección principal */
+}

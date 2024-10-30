@@ -1,0 +1,24 @@
+<div class="color-pages">
+    <div class="card">
+        <h1 style="text-align: center;">Registrar estudiante - 0</h1>
+        <div class="padding-horizontal">
+            <app-custom-input label="Nombre" placeholder="Ingresa tu nombre" type="text"></app-custom-input>
+            <app-custom-input label="Apellido" placeholder="Ingresa tu apellido" type="text"></app-custom-input>
+            <app-custom-input label="Edad" placeholder="Ingresa tu edad" type="text"></app-custom-input>
+            <app-custom-input label="Dirección" placeholder="Ingresa tu Dirección" type="text"></app-custom-input>
+            <div class="separator-buttons">
+                <app-reusable-button text="Guardar" color="blue"></app-reusable-button>
+                <app-reusable-button text="Modificar" color="yellow"></app-reusable-button>
+                <app-reusable-button text="Eliminar" color="red"></app-reusable-button>
+            </div>
+            <h1 style="text-align: left;">Buscar Estudiante</h1>
+
+            <div style="display: flex; align-items: center; justify-content: space-between;">
+                <app-custom-input label="Estudiante" placeholder="Ingresa el ID del estudiante" type="text"></app-custom-input>
+                <app-reusable-button text="Buscar" color="green"></app-reusable-button>
+                <app-reusable-button text="Ver todos los Estudiantes" color="orange" (btnClick)="navigateToEstudiantes()"></app-reusable-button>
+            </div>
+            
+        </div>
+    </div>
+</div>

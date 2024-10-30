@@ -1,0 +1,12 @@
+<div class="color-pages">
+    <div style="display: flex; align-items: center;">
+        <div class="circulo" style="margin-left: 5%; margin-right: 1%;" (click)="goBack()">
+
+        </div>
+        <h1>Students</h1>
+    </div>
+    <div class="grid-container">
+        <app-user-card *ngFor="let user of users" [userName]="user.name" [description]="user.description"></app-user-card>
+    </div>
+    
+</div>
